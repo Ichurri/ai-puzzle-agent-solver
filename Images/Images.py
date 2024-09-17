@@ -13,15 +13,15 @@ screen = pygame.display.set_mode((WINDOW_SIZE, WINDOW_SIZE))
 pygame.display.set_caption("NxN Puzzle")
 
 images = [
-    pygame.image.load("Images/image0_0.png"),
-    pygame.image.load("Images/image0_1.png"),
-    pygame.image.load("Images/image0_2.png"),
-    pygame.image.load("Images/image1_0.png"),
-    pygame.image.load("Images/image1_1.png"),
-    pygame.image.load("Images/image1_2.png"),
-    pygame.image.load("Images/image2_0.png"),
-    pygame.image.load("Images/image2_1.png"),
-    pygame.image.load("Images/image2_2.png"),
+    pygame.image.load("image0_0.png"),
+    pygame.image.load("image0_1.png"),
+    pygame.image.load("image0_2.png"),
+    pygame.image.load("image1_0.png"),
+    pygame.image.load("image1_1.png"),
+    pygame.image.load("image1_2.png"),
+    pygame.image.load("image2_0.png"),
+    pygame.image.load("image2_1.png"),
+    pygame.image.load("image2_2.png"),
 ]
 
 
