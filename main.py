@@ -12,8 +12,9 @@ heuristic = input("Enter the heuristic to use ('out_of_place', 'manhattan_distan
 
 environment = PuzzleEnvironment(n)
 
-initial_state = [[7, 1, 3], [8, 0, 2], [5, 4, 6]]
-# initial_state = environment.initial_state # to use a random state
+# initial_state = [[7, 1, 3], [8, 0, 2], [5, 4, 6]]
+# initial_state = [[1,2,3], [4, 5, 6], [8, 7, 0]]
+initial_state = environment.initial_state # to use a random state
 environment.set_initial_state(initial_state)
 
 goal_state = environment.goal_state

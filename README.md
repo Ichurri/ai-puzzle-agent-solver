@@ -109,7 +109,7 @@ python Tests.py
 You can play the NxN puzzle interactively or let the agent solve it for you by running `Play.py`.
 
 ```bash
-python Play.py
+python PlayPygame.py
 ```
 
 You will have the following options during the game:

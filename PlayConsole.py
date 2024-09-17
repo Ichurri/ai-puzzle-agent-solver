@@ -26,7 +26,9 @@ def move_user(state, move):
 
 def play(n):
     environment = PuzzleEnvironment(n)
+    # initial_state = [[1,2,3], [4,5,6], [8,7,0]]
     initial_state = environment.initial_state
+    environment.set_initial_state(initial_state)
     goal_state = environment.goal_state
 
     current_state = initial_state
