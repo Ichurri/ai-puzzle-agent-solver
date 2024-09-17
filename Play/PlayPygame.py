@@ -59,7 +59,7 @@ def check_win(state):
     return flat_state == correct
 
 def show_win_message(screen):
-    win_text = win_font.render("¡Felicidades!", True, (255, 255, 255))
+    win_text = win_font.render("Congratulations!", True, (255, 255, 255))
     text_rect = win_text.get_rect(center=(WINDOW_SIZE // 2, WINDOW_SIZE // 2))
     screen.blit(win_text, text_rect)
     pygame.display.flip()
