@@ -15,7 +15,7 @@ TILE_SIZE = 150
 WINDOW_SIZE = TILE_SIZE * n
 
 screen = pygame.display.set_mode((WINDOW_SIZE, WINDOW_SIZE))
-pygame.display.set_caption("Rompecabezas NxN")
+pygame.display.set_caption("Puzzle NxN")
 
 font = pygame.font.Font(None, 100)
 win_font = pygame.font.Font(None, 80)
